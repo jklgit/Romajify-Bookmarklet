@@ -18,7 +18,7 @@ At the end it should look something like this:
 
 Save the bookmark.
 
-## Use
+## Usage
 
 Click the bookmark on any page to turn all Hiragana, Katakana and Kanji to Romaji.
 
