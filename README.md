@@ -2,8 +2,6 @@
 
 Bookmarklet to romanize Hiragana, Katakana and Jouyou-Kanji.
 
-The Romanization of Kanji is not an easy task and might give wrong results mostly. This bookmarklet is just using the first given romanization from [this table on Wikipedia](https://en.wikipedia.org/wiki/List_of_j%C5%8Dy%C5%8D_kanji).
-
 ## Installation
 
 Create a bookmark in your browser. Enter a name and paste the following link (triple-click to mark it all):
@@ -23,6 +21,12 @@ Save the bookmark.
 ## Use
 
 Click the bookmark on any page to turn all Hiragana, Katakana and Kanji to Romaji.
+
+## Limitations
+
+* The Romanization of Kanji is not an easy task and might give wrong results mostly. This bookmarklet is just using the first given romanization from [this table on Wikipedia](https://en.wikipedia.org/wiki/List_of_j%C5%8Dy%C5%8D_kanji).
+
+* Bookmarklets cannot be used on every website. Some big websites do not allow the use of bookmarklets by using [CSP](https://en.wikipedia.org/wiki/Content_Security_Policy). Namely Twitter, Github and Wikipedia.
 
 ## Credits
 
