@@ -27,6 +27,7 @@ function callback() {
 
 		// Change every hiragana and katakana to romaji
 		var n;
+		var val;
 		var iter = 0;
 		while (n = walk.nextNode()) {
 			// If not is not hidden
@@ -34,8 +35,11 @@ function callback() {
 
 				// if(isVisible(n.parentNode)){
 				if (n.nodeValue.trim().length > 0) {
-					// console.log(iter++, n.parentNode.tagName, n.nodeValue);
-					n.nodeValue = romaji.fromKana(n.nodeValue);
+					val = romaji.fromKana(n.nodeValue);
+					if(val !== n.nodeValue){
+						// console.log(iter++, n.parentNode.tagName, n.nodeValue);
+						n.nodeValue = val;
+					}
 				}
 				// }
 			}
