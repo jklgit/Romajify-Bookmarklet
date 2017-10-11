@@ -1,6 +1,6 @@
 # Romajify-Bookmarklet
 
-Bookmarklet to romanize Hiragana, Katakana and Jouyou-Kanji.
+Bookmarklet to romanize Hiragana, Katakana, Jouyou-Kanji and Russian.
 
 ## Installation
 
@@ -24,7 +24,7 @@ Click the bookmark on any page to turn all Hiragana, Katakana and Kanji to Romaj
 
 ## Limitations
 
-* The Romanization of Kanji is not an easy task and might give wrong results mostly. This bookmarklet is just using the first given romanization from [this table on Wikipedia](https://en.wikipedia.org/wiki/List_of_j%C5%8Dy%C5%8D_kanji).
+* The Romanization of Kanji is not an easy task and might give wrong results mostly. This bookmarklet is just using the first given romanization from [this table on Wikipedia](https://en.wikipedia.org/wiki/List_of_j%C5%8Dy%C5%8D_kanji). For example 日本語 turns into nichihongo instead of nihongo.
 
 * Bookmarklets cannot be used on some websites. These few websites do not allow the use of bookmarklets by using [CSP](https://en.wikipedia.org/wiki/Content_Security_Policy). Namely Twitter, Github and Wikipedia.
 
