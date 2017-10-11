@@ -13,10 +13,10 @@ for (var i = 0; i <= 32; i++) {
 	r = romaji[i].innerText.trim();
 	if (r !== '–') {
 		if (u !== r.toUpperCase()) {
-			object[u] = r;
+			object[u] = r.substr(0,1).toUpperCase() + r.substr(1).toLowerCase();
 		}
 		if (l !== r.toLowerCase()) {
-			object[l] = r;
+			object[l] = r.toLowerCase();
 		}
 	}
 }
