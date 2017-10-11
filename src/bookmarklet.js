@@ -56,7 +56,7 @@ function callback() {
 	}
 };
 var s = document.createElement("script");
-s.src = "https://cdn.rawgit.com/jklgit/Romajify-Bookmarklet/294fa731/src/romaji.js";
+s.src = "https://cdn.rawgit.com/jklgit/Romajify-Bookmarklet/2a525b7f/src/romaji.js";
 if (s.addEventListener) {
 	s.addEventListener("load", callback, false)
 } else if (s.readyState) {
